@@ -13,10 +13,10 @@ TODO:
 - write simple overwriting virus in C
   - [x] list directory
   - [ ] traverse directories
-  - [ ] keep old time and date of creation/modification
-  - [ ] overwrite files... duh...
+  - [x] overwrite files... duh...
+  - [ ] keep old time and date of creation/modification (optional)
 - write simple companion virus in C
   - [ ] list directory
   - [ ] traverse directories
-  - [ ] hide
+  - [ ] hide + use host files time and date (optional)
   - [ ] launch host-files first and then infect other files
