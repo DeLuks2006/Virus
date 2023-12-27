@@ -19,4 +19,4 @@ TODO:
   - [ ] list directory
   - [ ] traverse directories
   - [ ] hide
-  - [ ] launch files first and then infect other files... duh...
+  - [ ] launch host-files first and then infect other files
